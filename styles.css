@@ -202,7 +202,7 @@ footer.footsy ul li {
 
 
 /* #### Mobile #### */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 520px) {
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
