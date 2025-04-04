@@ -202,7 +202,7 @@ footer.footsy ul li {
 
 
 /* #### Mobile #### */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 768px) and (orientation: portrait) {
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
@@ -250,7 +250,7 @@ footer.footsy ul li {
     }
 
     div.mobileStack {
-        width: 40%;
+        width: 50%;
         display: block;
     }
 
