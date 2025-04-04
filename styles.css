@@ -207,6 +207,10 @@ footer.footsy ul li {
         display: none;
     }
 
+    body {
+        font-size: 14px;
+    }
+
 
     ul.topnav li.dropdownIcon {
         display: block;
