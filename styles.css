@@ -137,6 +137,11 @@ button {
     margin: auto;
 }
 
+button:hover {
+    background-color:midnightblue;
+    color:brown;
+}
+
 div.icon {
     width: 100%;
 }
