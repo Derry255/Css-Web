@@ -15,7 +15,7 @@
         <li><a href="#about">About</a></li>
         <li class="topnav-right"><a href="#signup">Sign Up</a></li>
         <li class="topnav-right"><a href="#signin">Sign In</a></li>
-        <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        <li class="dropdownIcon" onclick="toggleMenu()"><a href="javascript:void(0);"></a></li>
     </ul>
   </nav>
 
@@ -31,8 +31,8 @@
             <h2>Username</h2>
             <input class="inputbox" name="Username" type="text" placeholder="Username">
             <h2>Password</h2>
-            <input class="inputbox" name="Password" type="text" placeholder="Password">
-          </div>
+            <input clas="inputbox" name="Password" type="text" placeholder="Password">
+          </div>s
          </form>
       </div>
       <div class="col-6">
@@ -136,15 +136,18 @@
   </div>
 </footer>
   <script>
-    function dropdownMenu() {
-      var x = document.getElementById("dropdownClick");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-        /*#### change topnav to topnav.responsive ####*/
-      } else {
-        x.className = "topnav";
-      }
+    function toggleMenu() {
+    var menu = document.getElementById("dropdownClick");
+    var icon = document.querySelector(".dropdownIcon");
+
+    if (menu.className === "topnav") {
+        menu.className += " responsive"; // Open the menu
+        icon.classList.add("open"); // Show close icon
+    } else {
+        menu.className = "topnav"; // Close the menu
+        icon.classList.remove("open"); // Show hamburger icon
     }
+}
   </script>
 </body>
 </html>
