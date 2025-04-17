@@ -246,7 +246,7 @@ footer.footsy ul li {
     ul.topnav li.dropdownIcon.open a::before {
         content: "\2715"; /*Close icon (X) */
         Font-size: 20px;
-        color: purple;
+        color: red;
     }
 
     ul.topnav li a:hover {
