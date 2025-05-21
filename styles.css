@@ -144,8 +144,9 @@ button {
 }
 
 button:hover {
-    background-color:midnightblue;
+    background-color: #fff;
     color:brown;
+    border-radius: 100px;
 }
 
 div.icon {
