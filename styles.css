@@ -8,12 +8,14 @@ body {
     margin: 0;
 }
 
-#tabicon {
-    border-radius: 10px;
-}
+
 label {
     font-size: 35px;
     font-weight: 600;
+}
+
+#tabicon {
+    float: right;
 }
 
 
@@ -151,7 +153,7 @@ button {
 button:hover {
     background-color: #fff;
     color:brown;
-    border-radius: 100px;
+    border-radius: 1000px;
 }
 
 div.icon {
